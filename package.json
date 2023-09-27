@@ -1,0 +1,14 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "postman",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run \"DEUNA - API Testing.postman_collection.json\"  -e DEUNA.postman_environment.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^6.0.0"
+  }
+}
